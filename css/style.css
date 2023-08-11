@@ -1,0 +1,97 @@
+
+.myLink:hover
+{
+    transform: scale(1.2);
+}
+.myShadowUp
+{
+    box-shadow: 0px 10px 20px 0px rgba(68, 67, 67, 0.521);
+}
+.myShadowRight
+{
+    box-shadow: 0cm 10px 20px 5px rgba(68, 67, 67, 0.521);
+}
+.myShadowLeft
+{
+    box-shadow: 5px 20px 20px 0px rgba(68, 67, 67, 0.521);
+}
+.rightLine
+{
+    float: right;
+    
+}
+.textShadow
+{
+    text-shadow: 5px 5px 10px;
+}
+.textSize
+{
+    font-size: 5rem;
+}
+
+
+#scrollspyHeading1,
+#scrollspyHeading2,
+#scrollspyHeading3,
+#scrollspyHeading4,
+#scrollspyHeading5 {
+
+  padding-top: 100px;
+
+}
+
+.center
+{
+    text-align: center;
+}
+
+.container-iframe {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%; 
+  }
+  
+.responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.animateHahaLeft
+{   
+    
+    width: 100px;
+    height: 100px;
+    position: relative;
+
+    animation-name: hahaLeft;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+}
+  
+@keyframes hahaLeft{
+    0%   { left:0px; }
+    50%  { left: calc(100% - 100px); }
+    100% { left:0px; }
+}
+
+.animateHahaRight
+{   
+    
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: hahaRight;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+}
+  
+@keyframes hahaRight{
+    0%   { left:calc(100% - 200px); }
+    50%  { left:-105px; }
+    100% { left:calc(100% - 200px); }
+}
+  
+
+
